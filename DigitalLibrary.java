@@ -1,68 +1,19 @@
+package com.mycompany.mavenproject1;
 
-package digitallibrary.model;
+import com.mycompany.mavenproject1.model.Book;
+import com.mycompany.mavenproject1.dao.BookDAO;
+import java.util.ArrayList;
 
-public class Book{
-    private int BookID;
-    private String Title;
-    private String Author;
-    private String Publisher;
-    private int PublishYear;
-    private int Quantity;
-    
-    public Book(int BookID, String Title, String Author, String Publisher, int PublishYear, int Quantity){
-        this.BookID = BookID;
-        this.Author = Author;
-        this.PublishYear = PublishYear;
-        this.Publisher = Publisher;
-        this.Quantity = Quantity;
-        this.Title = Title;
-    }
-    
-    public int getBookID(){
-        return BookID;
-    }
-    public void setBookID(int BookID){
-        this.BookID=BookID;
-    }
-    
-    public String getTitle(){
-        return Title;
-    }
-    public void setTitle(String Tile){
-        this.Title = Title;
-    }
+public class DigitalLibrary {
 
-    public String getAuthor() {
-        return Author;
-    }
+    public static void main(String[] args) {
 
-    public void setAuthor(String Author) {
-        this.Author = Author;
-    }
+        BookDAO dao = new BookDAO();
 
-    public String getPublisher() {
-        return Publisher;
-    }
+        ArrayList<Book> books = dao.getAllBooks();
 
-    public void setPublisher(String Publisher) {
-        this.Publisher = Publisher;
+        for (Book book : books) {
+            System.out.println(book);
+        }
     }
-
-    public int getPublishYear() {
-        return PublishYear;
-    }
-
-    public void setPublishYear(int PublishYear) {
-        this.PublishYear = PublishYear;
-    }
-
-    public int getQuantity() {
-        return Quantity;
-    }
-
-    public void setQuantity(int Quantity) {
-        this.Quantity = Quantity;
 }
-}
-
-
