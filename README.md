@@ -13,7 +13,9 @@ Demo mô phỏng các chức năng quản lý thông tin sách, cho phép ngư�
 - Thực hiện các thao tác CRUD trên cơ sở dữ liệu.
 
 **Video Demo**
-[![Watch Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/rz_jG0TExIw?si=8_b3768ofX1sKnRk))
+## Video Demo
+
+[![Watch Demo](https://img.youtube.com/vi/rz_jG0TExIw/0.jpg)](https://youtu.be/rz_jG0TExIw)
 
 ## 2. Công nghệ sử dụng
 
