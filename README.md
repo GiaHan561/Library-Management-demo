@@ -12,6 +12,9 @@ Demo mô phỏng các chức năng quản lý thông tin sách, cho phép ngư�
 - Xây dựng giao diện quản lý dữ liệu bằng Java Swing.
 - Thực hiện các thao tác CRUD trên cơ sở dữ liệu.
 
+**Video Demo**
+[![Watch Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/rz_jG0TExIw?si=8_b3768ofX1sKnRk))
+
 ## 2. Công nghệ sử dụng
 
 | Công nghệ | Vai trò |
